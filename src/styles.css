@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.divider {
+  @apply w-8 h-1 mx-auto bg-dark;
+}
+
+.card {
+  @apply bg-white shadow-lg;
+}
+
+.card-content {
+  @apply flex flex-col items-center justify-center p-4 gap-2;
+}
+
+#hero * {
+  z-index: 2;
+}
+
