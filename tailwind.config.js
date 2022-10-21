@@ -15,6 +15,9 @@ module.exports = {
         body: ['"Roboto"', 'sans-serif'],
         heading: ['"Archivo Black"', 'sans-serif'],
       },
+      gridTemplateColumns: {
+        'products-1': 'repeat(1, minmax(0, 25rem))',
+      },
     },
   },
   plugins: [],
